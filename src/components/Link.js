@@ -1,6 +1,9 @@
 
-// Still not sure what this component does
-// REVIEW IT ---------------------------
+// Presentation Link Component
+// The 'FilterLink' container connects this component to Redux store
+// The 'if' conditional checks whether or not the prop 'active' is T/F
+// Then either renders it as plain text or as a <a> link
+// NOTE: 'children' is a default prop that refers to whatever is nested within (aka this.props.children)
 
 import React, { PropTypes } from 'react';
 
